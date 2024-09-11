@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+  }
+  
+  /* Header and Navigation */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #0073e6;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .hero h2 {
+    margin: 0 0 10px;
+    font-size: 2.5em;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background: #cc7a00;
+  }
+  
+  /* Features Section */
+  .features {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .feature-card {
+    flex: 1;
+    min-width: 250px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card h4 {
+    margin-top: 0;
+    color: #0073e6;
+  }
+  
+  /* About Us Section */
+  .about-us {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us h2 {
+    margin-top: 0;
+  }
+  
+  .our-values,
+  .our-history {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .our-values h3,
+  .our-history h3 {
+    margin-top: 0;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
