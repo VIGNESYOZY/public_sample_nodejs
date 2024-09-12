@@ -15,7 +15,7 @@ phases:
     commands:
       - echo ID_ntZChZy9
       - echo Creating zip archive of the application...
-      - tar -czvf ../PLN5000243.tar.gz *
+      - tar -czvf PLN5000243.tar.gz *
   post_build:
     commands:
       - echo Build completed. Artifacts are ready for deployment.
