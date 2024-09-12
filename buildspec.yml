@@ -13,12 +13,12 @@ phases:
       - npm test || echo "Tests not configured"
   build:
     commands:
-      - echo ID_C5tBFBVp
+      - echo ID_oc64qPxT
       - echo Creating zip archive of the application...
-      - tar -czvf PLN5000245.tar.gz *
+      - tar -czvf PLN5000246.tar.gz *
   post_build:
     commands:
       - echo Build completed. Artifacts are ready for deployment.
 artifacts:
   files:
-    - PLN5000245.tar.gz
+    - PLN5000246.tar.gz
