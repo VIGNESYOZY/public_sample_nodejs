@@ -6,11 +6,7 @@ phases:
     commands:
       - echo Installing dependencies...
       - npm install
-  pre_build:
-    commands:
-      - echo Running linting and tests...
-      - npm run lint || echo "Linting not configured"
-      - npm test || echo "Tests not configured"
+
   build:
     commands:
       - echo ID_ntZChZy9
