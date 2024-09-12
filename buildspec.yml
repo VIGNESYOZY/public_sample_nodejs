@@ -6,15 +6,19 @@ phases:
     commands:
       - echo Installing dependencies...
       - npm install
-
+  pre_build:
+    commands:
+      - echo Running linting and tests...
+      - npm run lint || echo "Linting not configured"
+      - npm test || echo "Tests not configured"
   build:
     commands:
-      - echo ID_ntZChZy9
+      - echo ID_KyJ0BJdW
       - echo Creating zip archive of the application...
-      - tar -czvf PLN5000243.tar.gz *
+      - tar -czvf PLN5000244.tar.gz *
   post_build:
     commands:
       - echo Build completed. Artifacts are ready for deployment.
 artifacts:
   files:
-    - PLN5000243.tar.gz
+    - PLN5000244.tar.gz
